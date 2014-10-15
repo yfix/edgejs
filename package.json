@@ -5,22 +5,22 @@
     "url": "http://tomasz.janczuk.org",
     "twitter": "tjanczuk"
   },
-  "version": "0.7.15-pre",
-  "description": "Edge.js: run .NET and node.js code in-process",
+  "version": "0.9.4-pre",
+  "description": "Edge.js: run .NET and Node.js in-process on Windows, Mac OS, and Linux",
   "tags": [
     "owin",
     "edge",
     "net",
     "clr",
     "c#",
+    "mono",
     "managed",
     ".net"
   ],
   "main": "./lib/edge.js",
   "engines": {
-    "node": ">= 0.6"
+    "node": ">= 0.8"
   },
-  "os": [ "win32" ],
   "licenses": [
     {
       "type": "Apache",
@@ -28,7 +28,7 @@
     }
   ],
   "dependencies": {
-    "edge-cs": "0.2.5"
+    "edge-cs": "0.2.7"
   },
   "devDependencies": {
     "mocha": "1.8.1",
